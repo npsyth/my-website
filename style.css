@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: "Stardos Stencil", system-ui;
+    color: black;
+    background-color: #e0d7ce;
+    text-decoration: none;
+}
+
+#hero {
+    display: flex;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1px;
+    color: rgb(0, 0, 0);
+    background-color: #e0d7ce;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:visited {
+    text-underline-offset: #0000;
+}
+
+.link:hover {
+    color: #2a3b33;
+}
+
+.link:active {
+    color: #222e28
+}
+
+
+.header-contactme {
+    justify-content: center;
+    color: #2a3b33;
+    font-size: 10px;
+    padding: 20x 20px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    padding-left: 35px;
+}
+
+.text-box {
+    padding-top: 200px;
+    padding-left: 200px;
+    font-size: 25px;
+    text-align: left;
+    width: 50%;
+}
+
+#photo {
+    padding-top: 35%;
+    padding-left: 20%;
+    width: 60%;
+    z-index: 2;
+}
+
+.right {
+    position: absolute;
+        right: 80px;
+    }
+    .header-contactme{
+        color: #2a3b33;
+        background-color: #e0d7ce;
+        padding: 7px 30px;
+        font-size: 30px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .header-contactme:hover{
+        color: #e0d7ce;
+        background-color: #2a3b33;
+    }
+
+#aboutme {
+    height: 100vh;
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.smth {
+    padding-left: 25%;
+    font-size: 20px;
+    width: 50%;
+}
+
+.contactme {
+    justify-content: center;
+}
+
+.right {
+    position: absolute;
+    right: 50px;
+    }
+    .contactme{
+        color: #2a3b33;
+        background-color: #e0d7ce;
+        padding: 7px 30px;
+        font-size: 30px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .contactme:hover{
+        color: #e0d7ce;
+        background-color: #2a3b33;
+    }
+
+#skills {
+    height: 100vh;
+}
+
+.skills {
+    padding-left: 400px;
+}
+
+.abc {
+    display: flex;
+}
+
+#projects {
+    height: 100vh;
+}
+
+.projects {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.project {
+    display: flex;
+}
+
+.myproject {
+    width: 50%;
+    justify-content: center;
+    font-size: 50px;
+    padding-left: 60px;
+}
+
+.german {
+    width: 50%;
+    justify-content: center;
+}
+
+#german {
+    height: 80px;
+    display: block;
+    padding: 20px;
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+#arc {
+    height: 500px;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 20px 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 1px;
+    color: rgb(0, 0, 0);
+    background-color: #e0d7ce;
+}
+
+#contact-me {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.info {
+    width: 40%;
+    padding-left: 30%;
+    text-align: center;
+}
+
+.contactinfo {
+    text-align: center;
+    padding: 25px;
+    /* From https://css.glass */
+    background: rgba(42, 59, 51, 0.71);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 20px 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 1px;
+    color: rgb(0, 0, 0);
+    background-color: #e0d7ce;
+}
